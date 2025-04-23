@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>projects</title>
+    <style>
+      @media (prefers-color-scheme: light) {
+        body {
+          background: #000;
+          color: #fff;
+        }
+      }
+      body {
+        margin: 1em auto;
+        max-width: 40em;
+        padding: 0 0.62em 3.24em;
+      }
+      nav {
+        padding-bottom: 10px;
+        border-bottom: 1px solid #abb2bf;
+        display: inline-block;
+      }
+      nav ul {
+        list-style-type: none;
+        padding-left: 0;
+        margin: 0;
+      }
+      nav li {
+        display: inline-block;
+      }
+      nav li a {
+        padding: 0 6px;
+      }
+      a {
+        text-decoration: none;
+        color: #0184bc;
+      }
+      nav li:not(:last-child) a::after {
+        color: #abb2bf;
+        content: "|";
+        font-size: 80%;
+        padding-left: 12px;
+      }
+      @media print {
+        body {
+          max-width: none;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="./index.html">~/</a></li>
+        <li><a href="./about.html">~/about</a></li>
+        <li><a href="./projects.html">~/projects</a></li>
+        <li><a href="./resume.pdf">~/resume</a></li>
+        <li><a href="./contact.html">~/contact</a></li>
+      </ul>
+    </nav>
+    <h2>projects</h2>
+    <p>my github: <a href="https://github.com/rikardoricz">github.com/rikardoricz</a></p>
+    <ul>
+      <li>Home Lab</li>
+      <li>Fuel Economy Tracker</li>
+      <li>Conference Room Booking</li>
+    </ul>
+  </body>
+</html>

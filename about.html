@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>about</title>
+    <style>
+      @media (prefers-color-scheme: light) {
+        body {
+          background: #000;
+          color: #fff;
+        }
+      }
+      body {
+        margin: 1em auto;
+        max-width: 40em;
+        padding: 0 0.62em 3.24em;
+      }
+      nav {
+        padding-bottom: 10px;
+        border-bottom: 1px solid #abb2bf;
+        display: inline-block;
+      }
+      nav ul {
+        list-style-type: none;
+        padding-left: 0;
+        margin: 0;
+      }
+      nav li {
+        display: inline-block;
+      }
+      nav li a {
+        padding: 0 6px;
+      }
+      a {
+        text-decoration: none;
+        color: #0184bc;
+      }
+      nav li:not(:last-child) a::after {
+        color: #abb2bf;
+        content: "|";
+        font-size: 80%;
+        padding-left: 12px;
+      }
+      p {
+        text-align: justify;
+      }
+      @media print {
+        body {
+          max-width: none;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="./index.html">~/</a></li>
+        <li><a href="./about.html">~/about</a></li>
+        <li><a href="./projects.html">~/projects</a></li>
+        <li><a href="./resume.pdf">~/resume</a></li>
+        <li><a href="./contact.html">~/contact</a></li>
+      </ul>
+    </nav>
+    <h2>about</h2>
+    <p>
+      A 3rd-year undergraduate teleinformatics student at Wrocław University of
+      Science and Technology. Always eager to learn and take on new challenges.
+      Passionate about self-hosting and optimizing server environments, with
+      hands-on experience maintaining personal servers. Skilled in configuring
+      and maintaining Linux-based systems, including daily use of Arch Linux.
+      Prefers a command line interface environment as a big fan of Vim and
+      Linux, always striving to customize and optimize workflows for maximum
+      efficiency. Alumni member of
+      <a href="https://asi.pwr.eroc.pl">Academic Computer Science Society (ASI)</a>. Sponsors organizer at the 18th and 19th
+      <a href="https://sesja.linuksowa.pl">Linux Session</a>.
+    </p>
+  </body>
+</html>

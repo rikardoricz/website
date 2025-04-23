@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TOMASZ ŚWIĄTEK</title>
+    <style>
+      @media (prefers-color-scheme: light) {
+        body {
+          background: #000;
+          color: #fff;
+        }
+      }
+      body {
+        margin: 1em auto;
+        max-width: 40em;
+        padding: 0 0.62em 3.24em;
+      }
+      h1,
+      h2,
+      h3 {
+        line-height: 1.2;
+      }
+      nav {
+        padding-bottom: 10px;
+        border-bottom: 1px solid #abb2bf;
+        display: inline-block;
+      }
+      nav ul {
+        list-style-type: none;
+        padding-left: 0;
+        margin: 0;
+      }
+      nav li {
+        display: inline-block;
+      }
+      nav li a {
+        padding: 0 6px;
+      }
+      a {
+        text-decoration: none;
+        color: #0184bc;
+      }
+      nav li:not(:last-child) a::after {
+        color: #abb2bf;
+        content: "|";
+        font-size: 80%;
+        padding-left: 12px;
+      }
+      @media print {
+        body {
+          max-width: none;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="./index.html">~/</a></li>
+        <li><a href="./about.html">~/about</a></li>
+        <li><a href="./projects.html">~/projects</a></li>
+        <li><a href="./resume.pdf">~/resume</a></li>
+        <li><a href="./contact.html">~/contact</a></li>
+      </ul>
+    </nav>
+    <article>
+      <header>
+        <h1>Tomasz Świątek</h1>
+        <aside>3rd-year undergraduate teleinformatics student entering DevOps world</aside>
+      </header>
+      <h2>This is my personal website</h2>
+      <p>Simple and fast, no frameworks, no clutter</p>
+    </article>
+  </body>
+</html>
