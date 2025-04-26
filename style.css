@@ -1,0 +1,81 @@
+:root {
+  --text: #626262;
+  --bg: #fff;
+  --link: #0184bc;
+  --separator: #aaa;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --text: #ddd;
+    --bg: #282c34;
+    --link: #61afef;
+    --separator: #626262;
+  }
+}
+body {
+  font-family: "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, Oxygen,
+    Ubuntu, Cantarell, sans-serif;
+  line-height: 1.6;
+  color: var(--text);
+  background: var(--bg);
+  margin: 2em auto;
+  max-width: 40em;
+  padding: 0 1em;
+  font-size: 18px;
+}
+h1,
+h2,
+h3 {
+  line-height: 1.2;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+}
+h1 {
+  text-align: center;
+  font-size: 2em;
+}
+p {
+  margin: 1em 0;
+}
+#about {
+    text-align: justify;
+}
+a {
+  color: var(--link);
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+nav {
+  border-bottom: 1px solid var(--separator);
+  padding-bottom: 0.8em;
+  margin-bottom: 1.5em;
+  text-align: center;
+  font-family: monospace;
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+nav li:not(:last-child)::after {
+  color: var(--separator);
+  content: "|";
+  margin: 0 0.5em;
+  font-size: 80%;
+}
+img {
+  width: 560px;
+  max-width: 100%;
+  margin: auto;
+  display: block;
+}
+@media print {
+  body {
+    max-width: none;
+  }
+}

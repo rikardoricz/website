@@ -4,53 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>about</title>
-    <style>
-      @media (prefers-color-scheme: light) {
-        body {
-          background: #000;
-          color: #fff;
-        }
-      }
-      body {
-        margin: 1em auto;
-        max-width: 40em;
-        padding: 0 0.62em 3.24em;
-      }
-      nav {
-        padding-bottom: 10px;
-        border-bottom: 1px solid #abb2bf;
-        display: inline-block;
-      }
-      nav ul {
-        list-style-type: none;
-        padding-left: 0;
-        margin: 0;
-      }
-      nav li {
-        display: inline-block;
-      }
-      nav li a {
-        padding: 0 6px;
-      }
-      a {
-        text-decoration: none;
-        color: #0184bc;
-      }
-      nav li:not(:last-child) a::after {
-        color: #abb2bf;
-        content: "|";
-        font-size: 80%;
-        padding-left: 12px;
-      }
-      p {
-        text-align: justify;
-      }
-      @media print {
-        body {
-          max-width: none;
-        }
-      }
-    </style>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <nav>
@@ -63,7 +17,7 @@
       </ul>
     </nav>
     <h2>about</h2>
-    <p>
+    <p id="about">
       A 3rd-year undergraduate teleinformatics student at Wrocław University of
       Science and Technology. Always eager to learn and take on new challenges.
       Passionate about self-hosting and optimizing server environments, with
